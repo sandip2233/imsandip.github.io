@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>SANDIP</title>
+	<style>
+
+canvas{
+	display: block;
+	vertical-align: bottom;
+	position: absolute;
+}
+
+#particles-js {
+  position: absolute;
+  width: 99%;
+  height: 30%;
+	background-color: rgb(26, 26, 75);
+background-position:center;
+background-repeat: no-repeat;
+top:0;
+}
+
+.text {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translate(50%,-50%);
+	color :rgb(242, 245, 248)
+	padding : 2em 3em;
+	background : rgba(0, 0, 0, 0.3);
+	text-shadow: 0px 0px 2px #131415;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-size: 2.25em;
+	font-weight: 700;
+	letter-spacing: -1px;
+	color:aliceblue
+}
+
+
+.edu{
+	position: absolute;
+	top: 30.5%;
+	left: 5;
+	width: 99%;
+	height: 69%;
+	color :rgb(219, 235, 243)
+	padding : 2em 3em;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(bg.jpeg);
+	text-shadow: 0px 0px 2px #131415;
+	font-family: 'Open Sans', sans-serif;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+.edu-text{
+
+	position: fixed;
+	background-color: transparent;
+	width: 170px;
+  height: 170px;
+  border: 7px solid rgb(70, 210, 235);
+  padding: 15px;
+  margin: 10px;
+}
+.project{
+	position:fixed;
+  top: 200px;
+	left:10cm;
+background-color: transparent;
+width: 170px;
+  height: 170px;
+border: 7px solid rgb(70, 210, 235);
+padding: 15px;
+margin: 10px;
+}
+
+div.Certificate{
+	position: fixed;
+  top: 200px;
+	left:20cm;
+
+	background-color: transparent;
+  width: 170px;
+  height: 170px;
+  border: 7px solid rgb(70, 210, 235);
+  padding: 15px;
+  margin: 10px;
+}
+div.social{
+	position: fixed;
+  top: 200px;
+	right:5px;
+
+	background-color: transparent;
+  width: 170px;
+  height: 170px;
+  border: 7px solid rgb(70, 210, 235);
+  padding: 15px;
+  margin: 10px;
+}
+
+div.Publication{
+	position: fixed;
+  bottom: 0px;
+	left:1;
+
+	background-color: transparent;
+  width: 170px;
+  height: 170px;
+  border: 7px solid rgb(70, 210, 235);
+  padding: 15px;
+  margin: 10px;
+}
+div.gallery{
+	position: fixed;
+  bottom: 0px;
+	right:5px;
+
+	background-color: transparent;
+  width: 170px;
+  height: 170px;
+  border: 7px solid rgb(70, 210, 235);
+  padding: 15px;
+  margin: 10px;
+}
+
+div.contact{
+	position:fixed;
+	bottom: -5px;
+	right:18%;
+	font-style: italic;
+	font-family:'Courier New', Courier, monospace
+}
+
+
+#box div
+{
+position: absolute;
+height: 125px;
+width: 125px;
+border: 1px solid lightgrey;
+background: rgba(255,200,100,0.8);
+text-align: center;
+font-size: 100px;
+}
+
+#box
+{
+-webkit-animation-name: animation;
+-webkit-animation-timing-function: ease-in-out;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-duration: 6s;
+margin:80;
+-webkit-transform-style: preserve-3d;
+
+-webkit-transform-origin: 100px 100px 0;
+}
+
+#box .one
+{ 
+-webkit-transform: translateZ(60px);
+}
+#box .two
+{ 
+-webkit-transform: rotateX(-90deg) translateZ(60px);
+}
+#box .three 
+{
+-webkit-transform: rotateY(90deg) rotateX(90deg) translateZ(60px);
+}
+#box .four 
+{
+-webkit-transform: rotateY(180deg) rotateZ(90deg) translateZ(60px);
+}
+#box .five
+{ 
+-webkit-transform: rotateY(-90deg) rotateZ(90deg) translateZ(60px);
+}
+#box .six 
+{
+-webkit-transform: rotateY(90deg) translateZ(60px);
+}
+
+@-webkit-keyframes animation
+{
+from,to{}
+16% { -webkit-transform: rotateY(-90deg);}
+33% { -webkit-transform: rotateY(-90deg) rotateZ(135deg);}
+50% { -webkit-transform: rotateY(225deg) rotateZ(135deg);}
+66% { -webkit-transform: rotateY(135deg) rotateX(135deg);}
+83% { -webkit-transform: rotateX(135deg);}
+}
+
+
+
+
+
+</style>
+</head>
+
+<body>
+
+	<div id="particles-js">
+	<div class="text">
+	<h1>SANDIP DAS</h1>
+	</div>
+	</div>
+
+	<div class="edu" style="position:fixed">
+		<div class="edu-text">
+			<h2 style="color:beige">Education</h2>
+		<h3 style="color:beige">B.Tech</h3>
+		<p style="color:beige">Computer Science & Engineering</p>
+		
+	</div>
+
+	<div class="project">
+		<h2 style="color:beige">Project</h2>
+	<h3 style="color:beige">View the project</h3>
+	<p style="color:beige"><a style="color:aqua;background-color: black;" href="project/project.html">Click here</a> to see my project....!</p>
+	
+</div>
+
+<div class="Certificate">
+	<h2 style="color:beige">Certification</h2>
+<h3 style="color:beige">View the certificate</h3>
+<p style="color:beige"><a style="color:aqua;background-color: black;" href="certificate/certificate.html">Click here</a> to see the CERTIFICATE</p>
+
+</div>
+
+
+<div class="social">
+	<h2 style="color:beige">Social</h2>
+	<p style="color:beige"><a style="color:aqua;background-color: black;" href="https://linkedin.com/in/sandip-das-8a0334229" target="_blank">Linkedin</a></p>
+		<p style="color:beige"><a style="color:aqua;background-color: black;" href="https://github.com/sandip2233" target="_blank">github</a></p>
+			<p style="color:beige"><a style="color:aqua;background-color: black;" href="https://www.facebook.com/profile.php?id=100005594448885" target="_blank">Facebook</a></p>
+			
+</div>
+
+<div class="Publication">
+	<h2 style="color:beige">Publication</h2>
+
+	<p style="color:beige"><a style="color:aqua;background-color: black;" href="#">CLICK HERE</a> to see my publish</p>
+
+</div>
+
+<div class="gallery">
+	<h2 style="color:beige">Gallery</h2>
+	<h3 style="color:beige"><a style="color:aqua;background-color: black;" href="gallery/gallery.html">Click Here</a> to view</h3>
+
+</div>
+
+
+<div class="contact">
+	<p style="color:beige"> contact : <a style="color:rgb(236, 156, 63);background-color: black;" href="mailto:dsandip2233@gmail.com">dsandip2233@gmail.com</a></p>
+</div>
+
+	</div>
+
+
+	<div id="view" style="width:350px; height:250px; margin:80px auto 0 auto; position:fixed;top: 350px;left:16cm;">
+        <div id="box">
+        <div class="one">S</div>
+        <div class="two">A</div>
+        <div class="three">N</div>
+        <div class="four">D</div>
+        <div class="five">I</div>
+        <div class="six">P</div>
+        </div>
+        </div>
+
+
+
+		
+
+<script src="particles.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
