@@ -79,7 +79,7 @@ div.Certificate{
 
 	background-color: transparent;
   width: 15%;
-  height: 25%;
+  height: 160px;
   border: 7px solid rgb(70, 210, 235);
   padding: 15px;
   margin: 10px;
@@ -91,7 +91,7 @@ div.social{
 
 	background-color: transparent;
   width: 15%;
-  height: 25%;
+  height: 160px;
   border: 7px solid rgb(70, 210, 235);
   padding: 15px;
   margin: 10px;
@@ -105,7 +105,7 @@ div.Publication{
 
 	background-color: transparent;
   width: 15%;
-  height: 25%;
+  height: 160px;
   border: 7px solid rgb(70, 210, 235);
   padding: 15px;
   margin: 10px;
@@ -117,7 +117,7 @@ div.gallery{
 
 	background-color: transparent;
   width: 15%;
-  height: 25%;
+  height: 160px;
   border: 7px solid rgb(70, 210, 235);
   padding: 15px;
   margin: 10px;
