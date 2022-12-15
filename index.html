@@ -72,6 +72,22 @@
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+		
+		
+		
+		
+		#message {
+  display: none;
+}
+
+@media (max-width: 500px){
+
+  #message {
+    display: block;
+  }
+}
+		
+		
 
 	</style>
 </head>
@@ -144,6 +160,10 @@
 <div class="visit">
 	<p style="color:beige"> Visitors : <span id="visits"></span></p>
 </div>
+		
+		<div>
+			<p id="message" style="display: none;">Please turn on Desktop site</p>
+		</div>
 
 	</div>
 
@@ -161,19 +181,8 @@
 
 	
 	
-	#message {
-  display: none;
-}
 
-@media (max-width: 500px){
-
-  #message {
-    display: block;
-  }
-}
-</style>
-
-        <p id="message" style="display: none;">Please turn on Desktop site</p>
+        
 
         <script>
 if (window.innerWidth < 500){
