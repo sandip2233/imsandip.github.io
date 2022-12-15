@@ -159,7 +159,27 @@
         </div>
         </div>
 
-		
+	
+	
+	#message {
+  display: none;
+}
+
+@media (max-width: 500px){
+
+  #message {
+    display: block;
+  }
+}
+</style>
+
+        <p id="message" style="display: none;">Please turn on Desktop site</p>
+
+        <script>
+if (window.innerWidth < 500){
+    document.getElementById("message").style.display = "block";
+}
+</script>
 	
 
 		
