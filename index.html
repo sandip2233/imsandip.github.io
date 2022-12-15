@@ -9,6 +9,7 @@
     <link rel="icon" href="icon.png">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet"   href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="style.css">
 	<style>
@@ -76,18 +77,6 @@
 		
 		
 		
-		#message {
-  display: none;
-}
-
-@media (max-width: 500px){
-
-  #message {
-    display: block;
-  }
-}
-		
-		
 
 	</style>
 </head>
@@ -95,6 +84,7 @@
 <body>
 
 	
+	<div class="d-none d-sm-block">
 	<div class="edu" style="position:absolute">
 
 		<div id="particles-js">
@@ -160,12 +150,12 @@
 <div class="visit">
 	<p style="color:beige"> Visitors : <span id="visits"></span></p>
 </div>
-		
-		<div>
-			<p id="message" style="display: none;">Please turn on Desktop site</p>
-		</div>
 
 	</div>
+	</div>
+<div class="d-block d-sm-none">
+      <p><strong>Please turn on Desktop site</strong></p>
+  </div>
 
 
 	<div id="view" style="width:350px; height:250px; margin: -1%; position:absolute;top: 56%;left:41%;">
@@ -179,19 +169,6 @@
         </div>
         </div>
 
-	
-	
-
-        
-
-        <script>
-if (window.innerWidth < 500){
-    document.getElementById("message").style.display = "block";
-}
-</script>
-	
-
-		
 
 <script src="particles.js"></script>
 <script src="app.js"></script>
