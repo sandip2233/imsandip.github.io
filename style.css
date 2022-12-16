@@ -131,12 +131,11 @@ div.contact{
 	font-family:'Courier New', Courier, monospace
 }
 
-@import url('https://fonts.googleapis.com/css?family=cursive&display=swap');
 div.visit{
 	position:absolute;
 	bottom: 1%;
 	right:23%;
-	font-family:'Bradley Hand', cursive;
+	font-family: 'Brush Script MT', cursive;
 }
 
 div.line{
