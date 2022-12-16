@@ -131,11 +131,12 @@ div.contact{
 	font-family:'Courier New', Courier, monospace
 }
 
+@import url('https://fonts.googleapis.com/css?family=fantasy&display=swap');
 div.visit{
 	position:absolute;
 	bottom: 1%;
 	right:23%;
-	font-family:'papyrus';
+	font-family:'papyrus', fantasy;
 }
 
 div.line{
