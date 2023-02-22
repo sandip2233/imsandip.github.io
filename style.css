@@ -228,8 +228,8 @@ from,to{}
 
 
 .glow-on-hover {
-    width: 100%;
-    height: 500%;
+    width: 60%;
+    height: 50px;
     border: none;
     outline: none;
     color: aqua;
