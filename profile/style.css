@@ -226,17 +226,17 @@ div .dot {
   to { border-color: orange; }
 }
 
-#timeline {
+.timeline {
 
   list-style: none;
   width: 100%;
-  margin: 600px 0 0;
+  margin: 500px 0 0;
   border-top: 6px solid #BADA55;
   display: table;
   border-spacing: 30px 0;
 
 }
-#timeline li {
+.timeline li {
   display: table-cell;
   position: relative;
   min-width: 100px;
