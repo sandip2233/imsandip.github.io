@@ -18,13 +18,13 @@ top:0;
 	left:-5%;
 }
 
-h1 {
+h2 {
 	font-size: 3em;
 	letter-spacing: -1px;
   transition: transform .2s;
 }
 
-h1:hover {
+h2:hover {
   -ms-transform: scale(1.2); /* IE 9 */
   -webkit-transform: scale(1.2); /* Safari 3-8 */
   transform: scale(1.2); 
