@@ -228,3 +228,46 @@ var span10 = document.getElementsByClassName("close10")[0];
 span10.onclick = function() { 
   modal10.style.display = "none";
 }
+
+
+var modal11 = document.getElementById("myModal11");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img11 = document.getElementById("myImg11");
+var modalImg11 = document.getElementById("img0111");
+var captionText11 = document.getElementById("caption11");
+img11.onclick = function(){
+  modal11.style.display = "block";
+  modalImg11.src = this.src;
+  captionText11.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span11 = document.getElementsByClassName("close11")[0];
+
+// When the user clicks on <span> (x), close the modal
+span11.onclick = function() { 
+  modal11.style.display = "none";
+}
+
+
+
+var modal12 = document.getElementById("myModal12");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img12 = document.getElementById("myImg12");
+var modalImg12 = document.getElementById("img0112");
+var captionText12 = document.getElementById("caption12");
+img12.onclick = function(){
+  modal12.style.display = "block";
+  modalImg12.src = this.src;
+  captionText12.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span12 = document.getElementsByClassName("close12")[0];
+
+// When the user clicks on <span> (x), close the modal
+span12.onclick = function() { 
+  modal12.style.display = "none";
+}

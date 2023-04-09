@@ -161,75 +161,51 @@ div .dot {
 
 
 
-.container{
-  display: inline-block;
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #38d807;
-}
-.typed-out:nth-child(1){
-  overflow: hidden;
-  border-right: .15em solid orange;
-  white-space: nowrap;
-  animation: typing 4s steps(20, end) forwards, blinking .8s infinite;
-  font-size: 2rem;
-  width: 0;
-  font-family: 'MinecraftiaRegular';
-  text-shadow: 1px 1px #fffefe;
-
-}
-.my-photo{
-  position: relative;
-  top: 30%;
-  left: 80%;
-}
-
 .education{
   display: inline-block;
   position: absolute;
-  top: 30%;
-  left: 10%;
+  top: 10%;
+  left: 5%;
+  text-align: center;
   
 
 }
 .education h{
-  font-size: 2.8rem;
+  font-size: 2.2rem;
   font-family: 'Tilt Prism';
   text-shadow: 1px 1px #fffefe;
   color: #b2fc0673;
 }
 .education h1{
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   font-family: 'Rampart One';
 
   color: #fffffe;
 }
 .education p{
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   font-family: 'Press Start 2P';
   text-shadow: 1px 1px #fffefe;
   color: #04e0fd;
+  
 }
 
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+
+.education{
+  transition: transform .2s;
 }
-@keyframes typing1 {
-  from { width: 0 }
-  to { width: 100% }
+
+.education:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
 }
-@keyframes blinking {
-  from { border-color: transparent }
-  to { border-color: orange; }
-}
+
 
 .time{
-  top:100%;
+  top:35%;
   position: absolute;
-  width: 100%;
+  width: 50%;
 }
 .timeline {
 
@@ -256,7 +232,7 @@ div .dot {
   height: 10px;
   background: #fffff0;
   border: 6px solid #f98262;
-  border-radius: 50%;
+  border-radius: 45%;
   display: block;
   position: absolute;
 }
@@ -267,7 +243,7 @@ div .dot {
 }
 
 .avatar {
-  width: 80px;
+  width: 60px;
   height: 60px;
   display: block;
   border-radius: 50%;
@@ -332,30 +308,30 @@ li.up .avatar {
 .skill{
   display: inline-block;
   position: absolute;
-  top: 200%;
-  left: 28%;
+  top: 5%;
+  left: 68%;
   font-family: 'Press Start 2p';
   color: white;
 }
 .skills {
   text-align: right;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   
 }
 .cont {
-  width: 600px;
+  width: 300px;
   background-color: #ddd;
 }
 
 
-.html {animation: html 12s normal forwards; background-color: #048354;}
-.css {animation: css 12s normal forwards; background-color: #2196F3;}
-.js {animation: js 12s normal forwards; background-color: #f44336;}
-.php {animation: php 12s normal forwards; background-color: #808080;}
-.java {animation: java 12s normal forwards; background-color: #f1c40f;}
-.python {animation: python 12s normal forwards; background-color: #2bec7c;}
-.sql {animation: sql 12s normal forwards; background-color: #e90ff1;}
+.html {animation: html 4s normal forwards; background-color: #048354;}
+.css {animation: css 4s normal forwards; background-color: #2196F3;}
+.js {animation: js 4s normal forwards; background-color: #f44336;}
+.php {animation: php 4s normal forwards; background-color: #808080;}
+.java {animation: java 4s normal forwards; background-color: #f1c40f;}
+.python {animation: python 4s normal forwards; background-color: #2bec7c;}
+.sql {animation: sql 4s normal forwards; background-color: #e90ff1;}
 
 @keyframes html {
   0% { width: 0; }
@@ -392,19 +368,42 @@ li.up .avatar {
   100% { width: 80%; }
 }
 
+
+.cont{
+  transition: transform .2s;
+}
+
+.cont:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+
 .con{
-  top: 310%;
+  bottom: 2%;
   left: 45%;
   position: absolute;
   color: whitesmoke;
+  font-size: small;
 }
 .contact {
   border: 1px solid;
-  padding: 10px;
+  padding: 5px;
   box-shadow: 5px 10px #888888;
   background-color: rgb(163, 197, 226);
 }
 .space{
-  top:323%;
   position: absolute;
 }
+
+.con{
+  transition: transform .2s;
+}
+
+.con:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
