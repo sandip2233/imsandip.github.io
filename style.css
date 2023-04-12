@@ -5,7 +5,7 @@
   position: absolute;
   width: 100%;
   height: 29%;
-	background-color: rgb(26, 26, 75);
+	background-color: rgb(43, 26, 75);
 top:0;
 }
 
@@ -34,7 +34,8 @@ h1:hover {
 .edu{
 	width: 99%;
 	height: 100vh;
-	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(bg.jpeg);
+  background: rgb(27,24,34);
+  background: linear-gradient(180deg, rgba(27,24,34,1) 25%, rgba(103,44,154,0.9528186274509804) 53%, rgba(255,255,255,1) 98%);
 	text-shadow: 0px 0px 2px #131415;
 	background-position:center;
 	background-size:cover;
@@ -69,6 +70,7 @@ div.datetime{
   font-family: 'MinecraftiaRegular';
   font-size: small;
   transition: transform .2s;
+  
 }
 div.datetime:hover {
   -ms-transform: scale(1.2); /* IE 9 */
@@ -227,9 +229,9 @@ from,to{}
 }
 
 .profile:hover {
-  -ms-transform: scale(1.2); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Safari 3-8 */
-  transform: scale(1.2); 
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }
 
 .project{
@@ -237,18 +239,18 @@ from,to{}
 }
 
 .project:hover {
-  -ms-transform: scale(1.2); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Safari 3-8 */
-  transform: scale(1.2); 
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }
 .certificate{
   transition: transform .2s;
 }
 
 .certificate:hover {
-  -ms-transform: scale(1.2); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Safari 3-8 */
-  transform: scale(1.2); 
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }
 
 .publication{
@@ -256,9 +258,9 @@ from,to{}
 }
 
 .publication:hover {
-  -ms-transform: scale(1.2); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Safari 3-8 */
-  transform: scale(1.2); 
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }
 
 .gallery{
@@ -266,9 +268,9 @@ from,to{}
 }
 
 .gallery:hover {
-  -ms-transform: scale(1.2); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Safari 3-8 */
-  transform: scale(1.2); 
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }
 
 
