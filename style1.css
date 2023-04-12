@@ -52,7 +52,7 @@ html {
   .container{
     display: inline-block;
     position: absolute;
-    top: 35%;
+    top: 45%;
     left: 35%;
     transform: translate(-50%, -50%);
     color: #38d807;
@@ -84,26 +84,6 @@ html {
     transform: scale(1.1); 
   }
   
-  .education{
-    display: inline-block;
-    position: absolute;
-    top: 45%;
-    left: 5%;
-    
-  
-  }
-  .education h{
-    font-size: 1.8rem;
-    font-family: 'Press Start 2P';
-    text-shadow: 1px 1px #fffefe;
-    color: #058cfa;
-  }
-  .education h2{
-    font-size: 1.7rem;
-    font-family: 'Rampart One';
-  
-    color: #fffffe;
-  }
 
 
 
