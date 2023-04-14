@@ -164,8 +164,8 @@ div .dot {
 .education{
   display: inline-block;
   position: absolute;
-  top: 10%;
-  left: 5%;
+  top: 30%;
+  left: 10%;
   text-align: center;
   
 
@@ -198,9 +198,9 @@ div .dot {
 
 
 .time{
-  top:35%;
+  top:100%;
   position: absolute;
-  width: 50%;
+  width: 100%;
 }
 .timeline {
 
@@ -320,13 +320,13 @@ li.up .avatar {
 }
 
 
-.html {animation: html 4s normal forwards; background-color: #048354;}
-.css {animation: css 4s normal forwards; background-color: #2196F3;}
-.js {animation: js 4s normal forwards; background-color: #f44336;}
-.php {animation: php 4s normal forwards; background-color: #808080;}
-.java {animation: java 4s normal forwards; background-color: #f1c40f;}
-.python {animation: python 4s normal forwards; background-color: #2bec7c;}
-.sql {animation: sql 4s normal forwards; background-color: #e90ff1;}
+.html {animation: html 5s normal forwards; background-color: #048354;}
+.css {animation: css 5s normal forwards; background-color: #2196F3;}
+.js {animation: js 5s normal forwards; background-color: #f44336;}
+.php {animation: php 5s normal forwards; background-color: #808080;}
+.java {animation: java 5s normal forwards; background-color: #f1c40f;}
+.python {animation: python 5s normal forwards; background-color: #2bec7c;}
+.sql {animation: sql 5s normal forwards; background-color: #e90ff1;}
 
 @keyframes html {
   0% { width: 0; }
@@ -376,7 +376,7 @@ li.up .avatar {
 
 
 .con{
-  bottom: 2%;
+  top: 180%;
   left: 45%;
   position: absolute;
   color: whitesmoke;
