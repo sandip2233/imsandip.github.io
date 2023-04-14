@@ -5,7 +5,9 @@
   position: absolute;
   width: 100%;
   height: 29%;
-	background-color: rgb(43, 26, 75);
+  background: rgb(67,12,130);
+background: linear-gradient(180deg, rgba(67,12,130,1) 0%, rgba(69,11,128,1) 100%);
+
 top:0;
 }
 
@@ -34,6 +36,7 @@ h1:hover {
 .edu{
 	width: 99%;
 	height: 100vh;
+
   background: rgb(27,24,34);
   background: linear-gradient(180deg, rgba(27,24,34,1) 25%, rgba(103,44,154,0.9528186274509804) 53%, rgba(255,255,255,1) 98%);
 	text-shadow: 0px 0px 2px #131415;
@@ -52,7 +55,7 @@ div.visit{
 	bottom: 0%;
 	right:20%;
 	font-family: 'MinecraftiaRegular';
-  font-size: small;
+  font-size: 11px;
   transition: transform .2s;
 }
 
@@ -66,9 +69,9 @@ div.visit:hover {
 div.datetime{
   position:absolute;
 	bottom: 0%;
-  left:24%;
+  left:2%;
   font-family: 'MinecraftiaRegular';
-  font-size: small;
+  font-size: 10px;
   transition: transform .2s;
   
 }
@@ -79,15 +82,6 @@ div.datetime:hover {
 }
 
 
-div.line{
-	position: absolute;
-  top: 28.5%;
-
-	background-color: transparent;
-  width: 100%;
-  height: 0%;
-  border: 1px solid rgb(249, 250, 250);
-}
 
 
 #box div
@@ -149,68 +143,6 @@ from,to{}
 }
 
 
-.glow-on-hover {
-    width: 55%;
-    height: 50px;
-    border: none;
-    outline: none;
-    color: aqua;
-    background:transparent;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    font-size: large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    border-radius: 50%;
-}
-
-.glow-on-hover:before {
-    content: '';
-    background: linear-gradient(45deg, #ff0000, #ff6600, #fffb00, #00ff15, #ff0000, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: absolute;
-    top: -2px;
-    left:-2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(120% + 4px);
-    animation: glowing 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 50%;
-}
-
-.glow-on-hover:active {
-    color:#131415;
-}
-
-.glow-on-hover:active:after {
-    background: transparent;
-}
-
-.glow-on-hover:hover:before {
-    opacity: 1;
-}
-
-.glow-on-hover:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background:transparent;
-    left: 0;
-    top: 0;
-    border-radius: 50%;
-}
-
-@keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
-}
 
 .manu{
   position: relative;
@@ -271,8 +203,18 @@ from,to{}
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5); 
+
 }
 
+.menu{
+  transition: transform .2s;
+}
+.menu:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+
+}
 
 
 
