@@ -146,4 +146,19 @@
                         transform:translate(-50%, -50%);
                       }
 
+
+                    .content2 {
+                        width: 60%;
+                        background-color:rgba(206, 203, 203, 0.952);
+                        border-radius:.25em;
+                        box-shadow:0 0 .25em rgba(255, 255, 255, 0.699);
+                        box-sizing:border-box;
+                        left:35%;
+                        padding:2vmin;
+                        position:absolute;
+                        text-align:left;
+                        top:70%;
+                        transform:translate(-50%, -50%);
+                      }
+
                     
