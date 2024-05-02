@@ -147,7 +147,7 @@
                       }
 
 
-                    .content2 {
+                     .content2 {
                         width: 60%;
                         background-color:rgba(206, 203, 203, 0.952);
                         border-radius:.25em;
@@ -157,7 +157,7 @@
                         padding:2vmin;
                         position:absolute;
                         text-align:left;
-                        top:70%;
+                        top:115%;
                         transform:translate(-50%, -50%);
                       }
 
