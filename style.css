@@ -5,8 +5,7 @@
   position: absolute;
   width: 100%;
   height: 29%;
-  background: rgb(67,12,130);
-background: linear-gradient(180deg, rgba(67,12,130,1) 0%, rgba(69,11,128,1) 100%);
+
 
 top:0;
 }
@@ -37,8 +36,6 @@ h1:hover {
 	width: 99%;
 	height: 100vh;
 
-  background: rgb(67,12,130);
-  background: linear-gradient(180deg, rgba(67,12,130,1) 0%, rgba(90,64,160,1) 43%, rgba(146,215,231,1) 99%);
 	text-shadow: 0px 0px 2px #131415;
 	background-position:center;
 	background-size:cover;
@@ -158,6 +155,7 @@ from,to{}
 
 .profile{
   transition: transform .2s;
+
 }
 
 .profile:hover {
